@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+  height: 100%;
+  background-image: url('../images/background.jpg');
+  color: white;
+  font-family: fantasy;
+}
+
+div, h1 {
+  margin: 4rem;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+label {
+  font-size: 1.4rem;
+  padding-left: 1.6rem;
+  vertical-align: text-bottom;
+}
+
+img {
+  max-width: 50%;
+  height: auto;
+}

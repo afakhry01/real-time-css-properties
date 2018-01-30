@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script type="text/javascript" src="controls.js"></script>
   <link rel="stylesheet" href="css/main.css">
   <style>
     :root {
@@ -11,13 +12,11 @@
       --blur: 2px;
       --color: #BADA55;
     }
-
     img {
       padding: var(--spacing);
       background: var(--color);
       filter: blur(var(--blur));
     }
-
     span {
       color: var(--color)
     }
@@ -28,17 +27,16 @@
   <h1>Real Time Picture Controls With <span>Vanilla Javascript</span></h1>
   <div>
     <label>Background Color: </label>
-    <input type="color" name="color" value="#BADA55" data-suffix="">
+    <input type="color" name="color" value="#BADA55">
 
     <label>Blur: </label>
-    <input type="range" max="20" min="0" value="10" name="blur" data-suffix="px">
+    <input type="range" max="20" min="0" value="10" name="blur">
 
     <label>Spacing: </label>
-    <input type="range" max="70" min="0" value="10" name="spacing" data-suffix="px">
+    <input type="range" max="70" min="0" value="10" name="spacing">
   </div>
   <div class="frame">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Dover_Lifeboat_City_of_London_II.JPG">
+    <img src="images/frame-picture.jpg">
   </div>
-    <script type="text/javascript" src="controls.js"></script>
 </body>
 </html>

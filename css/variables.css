@@ -1,15 +1,1 @@
-:root {
-  --spacing: 10px;
-  --blur: 2px;
-  --color: #BADA55;
-}
-
-img {
-  padding: var(--spacing);
-  background: var(--color);
-  filter: blur(var(--blur));
-}
-
-span {
-  color: var(--color)
-}
+/* Empty file */
